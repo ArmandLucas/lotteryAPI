@@ -6,7 +6,7 @@ const cors = require("cors");
 
 let operatorAddress = "0x57418b2C8aE4840ed9De5eEDaF453D503b7d4F3D";
 let adminAddress = "0x57418b2C8aE4840ed9De5eEDaF453D503b7d4F3D";
-const value = 'kljkSD9d89klndskfahlskdbflkKJAS*&&SAVKASDFHHOFGSJKASF';
+let value = 'kljkSD9d89klndskfahlskdbflkKJAS*&&SAVKASDFHHOFGSJKASF';
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 
