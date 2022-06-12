@@ -129,6 +129,12 @@ try {
     }
   })
 
+  app.post("changeSecurityKey", (req, res) => {
+    if(req.body.adminAddress == adminAddress && req.body.old == value)
+      value = req.body.new;
+    else res.json("Invalid Admin")
+  })
+
 } catch (error) {
   console.log("Error occured.");
 }
